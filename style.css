@@ -1,0 +1,91 @@
+/* obsolete according to: https://stackoverflow.com/questions/5639827/styling-mathjax/25329062#25329062
+.MathJax {
+ font-size: 0.8em;
+}
+
+add
+
+<script type="text/x-mathjax-config"> 
+    MathJax.Hub.Config({ 
+        "HTML-CSS": { scale: 200, linebreaks: { automatic: true } }, 
+        SVG: { linebreaks: { automatic:true } }, 
+        displayAlign: "left" });
+</script>
+
+at the beginning of .qmd files
+*/
+
+/* use ![caption](image_file.png#center) for example */
+/*
+img[src*='#left'] {
+    float: left;
+}
+img[src*='#right'] {
+    float: right;
+}
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+*/
+
+.reveal div.cell-annotation {
+  font-size: 0.7em;
+  color: grey; /*#D58B70*/ /*B15533*/ /*A9C47F*/
+}
+
+.reveal section p {
+  font-size: 0.8em;
+  line-height: 1.2em;
+  vertical-align: top;
+  /*margin-top: -0.25em;*/
+}
+
+.reveal section li {
+  font-size: 0.8em;
+  line-height: 1.1em;
+  margin-top: -0.25em;
+  margin-bottom: -0.25em;
+}
+
+.reveal section ol {
+  font-size: 1em;
+  line-height: 1em;
+  margin-top: -0.25em;
+  margin-bottom: -0.25em;
+}
+
+.reveal section h1 {
+  font-size: 1.5em;
+  /* color: #B15533; */ /* burnt orange */
+  color: #154734;
+}
+
+.reveal section h2 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-bottom: -0.1em;
+  color: #154734;
+}
+
+.reveal section h3 {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 0.3em;
+  color: #154734;
+}
+
+strong {
+  font-weight: bold;
+  color: #115E67;
+}
+
+.reveal section blockquote{
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+/* Changes the background color of the title slide. */
+.slide-background:first-child {
+  background-color: #FFFFFF;
+}

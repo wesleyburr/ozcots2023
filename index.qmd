@@ -1,0 +1,163 @@
+---
+title: "Specifications Grading for Success in Statistics Education"
+author: 'Wesley S. Burr'
+institute: Trent University
+execute: 
+  echo: true
+format:
+  revealjs:
+    theme: default
+    margin: 0.05
+    incremental: true
+    logo: TUPMS.png
+    css: style.css
+    pdf-separate-fragments: false
+    auto-stretch: false
+slide-number: true
+smaller: false
+---
+
+## Why Do We 'Grade' Students?
+
+I have four questions for you to consider.
+
+* What is the **purpose** of assessing students' work?
+* Where did grades **come from**?
+* How do we grade, and **cui bono**?
+* How do we **resolve the conflict** between grade stakeholders?
+
+---
+
+## An overly hyperbolic statement
+
+**I do not know one (statistics) colleague who genuinely enjoys the act of grading undergraduate student work**. It is drudgery at best; hellish at worst. 
+
+---
+
+## What is Specifications Grading?
+
+:::: {.columns}
+
+::: {.column width="40%"}
+<img src="figure/spec_grading.jpg">
+:::
+
+::: {.column width="60%"}
+* book released in 2014
+* I became aware of it via a colleague (K. Kinnaird, at ICOTS10 in Kyoto!) in 2018
+* tried it the following semester
+* immediate convert to the **concept**
+* (courtesy of dinner with Helen) a modern version of the **[Keller Plan](https://en.wikipedia.org/wiki/Keller_Plan)** (1965-68)
+:::
+
+::::
+
+---
+
+## How Far Has This Spread?
+
+> * numerous converts in the mathematical, statistical and computational sciences
+> * some publicity in 2016, then a surge of interest after 2020
+> * some links for those interested 
+
+> - [Inside Higher Ed (2016)](https://www.insidehighered.com/views/2016/01/19/new-ways-grade-more-effectively-essay)
+> - [university example 1](https://ii.library.jhu.edu/2018/04/11/what-is-specifications-grading-and-why-should-you-consider-using-it/)
+> - [university example 2](https://teaching.unl.edu/resources/grading-feedback/specifications-grading/)
+> - [university example 3](https://citt.ufl.edu/articles/what-the-heck-is-specs-grading.html)
+> - [Grading for Equity book](https://gradingforequity.org/)
+
+---
+
+## My Experience
+
+I teach a broad cross-section of 2nd through 4th year
+undergraduate courses, and occasional graduate specialist
+courses. I have implemented variations of specifications
+grading in:
+
+> * 5 iterations of Mathematical Statistics (2nd year)
+> * 2 iterations of Stochastic Processes (4th year)
+> * 3 iterations of Linear Models (3rd year)
+> * 2 iterations of Experimental Design (4th year)
+> * 1 iteration of Statistical Learning (3rd year)
+
+All from 2018 Fall through 2023 Winter - 5 years.
+---
+
+## How does it work: Mathematical Statistics
+
+* broke course down into the most atomic learning outcomes feasible
+* in its latest iteration:
+    - a total of 30 target concepts, with 15 accompanying challenge areas (45 modular pieces)
+    - students work independently, submitting work weekly
+    - any item can be redone: all are graded on successful/unsuccessful (S/U)
+    - maximum number of **submissions** per week
+
+---
+
+## Mathematical Statistics: Example Topics
+
+> * Target Concept 13: Sampling Distributions I
+> * Target Concept 21: Bootstrap-t CIs for Means
+> * Challenge Problem 9: Parametric CI Simulation
+
+---
+
+## How does it Work: Linear Models
+
+* second major course, Linear Models, is a 3rd-year
+course on linear models for statistics majors
+* students largely **choose** to be in the class,
+* more mathematically and academically mature than the students in Mathematical Statistics
+
+* the course is broken into modules, each of which is fairly
+broad
+* each module has a bank of problems
+* students complete a set number of problems from each module (e.g., best 6 count)
+* they may do as few or as many problems as they wish
+* each problem is graded on a NA/Bronze/Silver/Gold scale
+* problems may not be redone, but additional problems from the module may
+
+---
+
+## Advantages to Both
+
+* grading is very simple - specifications make for extremely easy and rapid assessment of student performance
+* students have full control over their final grades, based entirely on their performance on the assessments
+* significantly reduced grade and test anxiety
+* feedback feels meaningful but not punitive
+* most students really like the system
+
+---
+
+## Disadvantages to Both
+
+* both systems are more complicated to implement
+* preparing larger banks of problems, and refreshing them, is higher workload
+* students can fall behind, and have no effective way of 'catching up'
+* depends heavily on student engagement and academic integrity
+
+---
+
+## Is It Worth It?
+
+I can't imagine going back. Students are happier, I'm happier, and the students' overall comprehension is
+either higher, or at least comparable at worst.
+
+I don't hate grading when it's done in this framework.
+
+If you are interested in trying a variation, reach out: I'd be happy to share my materials and details of my implementations.
+
+---
+
+## Contact Details
+
+<center>
+<a href="http://www.trentu.ca/math/"><img src="figure/trent.png" style="width: 200px;"/></a> &emsp;&emsp;
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="figure/cc.png" style="width: 200px;"/></a>
+</center>
+
+> - Contact me: [Email](mailto:wesleyburr@trentu.ca) or [Twitter](https://twitter.com/wsburr)
+> - Slides created via the R package [xaringan](https://github.com/yihui/xaringan) by Yihui Xie
+> - Slides and source at <http://bit.ly/ozcots2023_wsb>
+> - there's a paper in the proceedings with more detail and musings
